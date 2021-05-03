@@ -2,36 +2,43 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title> YouTube </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">  
+	<title> YouTubee </title>
 	<link rel="stylesheet" type="text/css" href="css/all.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
-<body>
+<body>  
 	<header>
-		<div class="logo">
-			<img src="images/logo.svg" alt="">
-		</div>
-		<div class="searchBar">
-			<input type="text" name="search" placeholder="Search">
-			<i class="fas fa-search"></i>
-			<i class="fas fa-microphone"></i>	
-		</div>
-		<nav>
-			<i class="fas fa-th"></i>
-			<i class="fas fa-ellipsis-v"></i>
-			<div class="signIn">
-				<i class="fas fa-user-alt"></i>
-				<span>Sign In</span>
+		<div class="container header">
+			<div class="left">
+				<div class="sideNav">
+					<i class="fas fa-bars"></i>
+				</div>
+				<div>
+					<img class="logo" src="images/dark logo.png" alt="">					
+				</div>
 			</div>
-		</nav>
+			<div class="searchBar middle">
+				<input type="text" name="search" placeholder="Search">
+				<i class="fas fa-search searchIcon"></i>
+				<i class="fas fa-microphone voiceIcon"></i>	
+			</div>
+			<nav class="right">
+				<i class="fas fa-th ytAppsIcon"></i>
+				<i class="fas fa-ellipsis-v settingIcon"></i>
+				<div class="signIn">
+					<i class="fas fa-user-alt"></i>
+					<span>Sign In</span>
+				</div>
+			</nav>
+		</div>
 	</header>
-<!-- 	<main>
-		<div class="content">
+	<main>
+		<div class="content container">
 			<div class="video">
-				<iframe width="650" height="355" src="https://www.youtube.com/embed/27C-TuJceeI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<iframe src="https://www.youtube.com/embed/27C-TuJceeI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				<div class="vidInfo">
-					<div class="left">
+					<div class="leftInVid">
 						<h2 class="vidTitle">
 							Why I Almost Quit Software Engineering
 						</h2>
@@ -39,7 +46,7 @@
 						<span class="upDate">. Apr 3, 2020</span>		
 					</div>
 
-					<div class="right">
+					<div class="rightInVid">
 						<div class="like">
 							<i class="fas fa-thumbs-up"></i>
 							<span>9.5k</span>
@@ -68,10 +75,15 @@
 
 			<div class="channelInfo">
 				<div class="channel">
-					<img src="images/channelLogo.jpg" alt="">
-					<p>Keep on Coding</p>
-					<p>124k subscribers</p>
-				</div>
+					<div class="channelLogo">
+						<img src="images/channelLogo.jpg" alt="">
+					</div>
+					<div class="channelName">		
+						<p>Keep on Coding</p>
+						<p>124k subscribers</p>
+					</div>
+
+				</div> 
 				<div class="subscribe">
 					<span>Subscribe</span>
 					<i class="fas fa-bell"></i>
@@ -86,7 +98,9 @@
 		</div>
 		<aside>
 			<div class="item">
-				<img class="itemImg" src="images/itemImg 01.jpg" alt="">
+				<div>
+					<img class="itemImg" src="images/itemImg 01.jpg" alt="">	
+				</div>
 				<div class="discription">
 					<h3 class="itemTitle">5 Things I Wish I Knew Before Becoming a Software Engineer </h3>
 					<p class="itemChannel">Keep on coding</p>
@@ -94,7 +108,9 @@
 				</div>
 			</div>
 			<div class="item">
-				<img class="itemImg" src="images/itemImg 01.jpg" alt="">
+				<div>
+					<img class="itemImg" src="images/itemImg 01.jpg" alt="">	
+				</div>
 				<div class="discription">
 					<h3 class="itemTitle">5 Things I Wish I Knew Before Becoming a Software Engineer </h3>
 					<p class="itemChannel">Keep on coding</p>
@@ -102,7 +118,9 @@
 				</div>
 			</div>
 			<div class="item">
-				<img class="itemImg" src="images/itemImg 01.jpg" alt="">
+				<div>
+					<img class="itemImg" src="images/itemImg 01.jpg" alt="">	
+				</div>>
 				<div class="discription">
 					<h3 class="itemTitle">5 Things I Wish I Knew Before Becoming a Software Engineer </h3>
 					<p class="itemChannel">Keep on coding</p>
@@ -110,7 +128,9 @@
 				</div>
 			</div>
 			<div class="item">
-				<img class="itemImg" src="images/itemImg 01.jpg" alt="">
+				<div>
+					<img class="itemImg" src="images/itemImg 01.jpg" alt="">	
+				</div>
 				<div class="discription">
 					<h3 class="itemTitle">5 Things I Wish I Knew Before Becoming a Software Engineer </h3>
 					<p class="itemChannel">Keep on coding</p>
@@ -118,7 +138,9 @@
 				</div>
 			</div>
 			<div class="item">
-				<img class="itemImg" src="images/itemImg 01.jpg" alt="">
+				<div>
+					<img class="itemImg" src="images/itemImg 01.jpg" alt="">	
+				</div>
 				<div class="discription">
 					<h3 class="itemTitle">5 Things I Wish I Knew Before Becoming a Software Engineer </h3>
 					<p class="itemChannel">Keep on coding</p>
@@ -126,7 +148,9 @@
 				</div>
 			</div>
 			<div class="item">
-				<img class="itemImg" src="images/itemImg 01.jpg" alt="">
+				<div>
+					<img class="itemImg" src="images/itemImg 01.jpg" alt="">	
+				</div>
 				<div class="discription">
 					<h3 class="itemTitle">5 Things I Wish I Knew Before Becoming a Software Engineer </h3>
 					<p class="itemChannel">Keep on coding</p>
@@ -134,7 +158,9 @@
 				</div>
 			</div>
 			<div class="item">
-				<img class="itemImg" src="images/itemImg 01.jpg" alt="">
+				<div>
+					<img class="itemImg" src="images/itemImg 01.jpg" alt="">	
+				</div>
 				<div class="discription">
 					<h3 class="itemTitle">5 Things I Wish I Knew Before Becoming a Software Engineer </h3>
 					<p class="itemChannel">Keep on coding</p>
@@ -142,6 +168,6 @@
 				</div>
 			</div>
 		</aside>
-	</main> -->
+	</main>
 </body>
 </html>  

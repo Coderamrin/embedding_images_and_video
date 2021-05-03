@@ -1,0 +1,190 @@
+body {
+	background: #222831;
+	color: #fff;
+	margin: 0;
+	font-family: sans-serif;
+	font-weight: normal;
+}
+
+.container {
+	width: 95%;
+	margin: 0 auto;
+}
+
+i {
+	margin-right: 8px;
+}
+
+main {
+	display: grid;
+	grid-template-columns: 870px 430px;
+}
+
+/*Header*/
+header {
+	background: #393e46;
+	margin-top: 0; 
+}
+
+.header {
+	display: flex;
+	align-items: center;
+	padding: 15px 0;
+}
+
+/**left**/
+.logo {
+	width: 80px;
+	height: auto;
+}
+
+.left {
+	display: flex;
+	align-items: center;
+}
+
+.sideNav {
+	margin-right: 30px;
+	font-size: 20px;
+} 
+
+/**middle**/
+
+input {
+	box-sizing: border-box;
+	width: 500px;
+	height: 35px;
+	margin-left: 125px;
+	padding-left: 10px;
+	font-size: 15px;
+	color: #393e46;
+	background: #222831;
+	border: 0;
+	outline: none;
+} 
+
+
+.searchIcon {
+	background: gray;
+	color: #393e46;
+	padding: 10px 28px;
+	margin-left: -5px; 
+	font-size: 15px;
+}
+
+.voiceIcon {
+	margin-left: 20px;
+	font-size: 20px;
+}
+ 
+/**right**/
+.right {
+	display: flex;
+	justify-content: space-between;
+	margin-left: 150px;
+	width: 15%;
+} 
+
+.signIn {
+	font-size: 15px;
+}
+
+.signIn i {
+	margin-right: 10px;
+}
+
+/**content**/
+.content {
+	margin-top: 20px;
+}
+
+iframe {
+	width: 820px;
+	height: 450px;
+}
+
+.vidInfo {
+	display: flex;
+	border-bottom: 1px solid gray;
+	padding-bottom: 20px; 
+}
+
+.vidTitle {
+	margin-bottom: 10px;
+	font-size: 20px;
+}
+
+.rightInVid {
+	display: flex;
+	align-items: flex-end; 
+	margin-left: 60px;
+}
+
+.rightInVid div {
+	margin-left: 20px;
+}
+
+/**channel info**/
+.channel {
+	display: flex;
+	margin-top: 20px;
+}
+
+.channelInfo {
+	display: flex;
+	align-items: flex-end;
+}
+
+.channelLogo img {
+	border-radius: 70%;
+}
+
+.channelName p {
+	margin: 8px;
+}
+
+.channelName {
+	margin-left: 10px;
+}
+
+.subscribe {
+	margin-left: 480px;
+}
+
+.subscribe span {
+	margin-right: 20px;
+	background: red;
+	padding: 5px;
+}
+
+.vidDescripton {
+	margin-left: 65px;
+	margin-top: 40px;
+}
+
+/**asaide**/
+aside {
+	margin-top: 20px;
+}
+
+.item {
+	display: flex;
+	margin: 0 0 20px 5px; 
+}
+
+.itemImg {
+	width: 200px;
+}
+
+.itemTitle {
+	font-size: 15px;
+	margin: 0;
+}
+
+.discription {
+	margin-left: 10px;
+}
+
+.discription p {
+	margin: 8px 0;
+}
